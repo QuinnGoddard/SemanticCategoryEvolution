@@ -1,1 +1,4 @@
-
+#grad1 {
+  background-color: pink;
+  background-image: linear-gradient(pink, yellow);
+}
