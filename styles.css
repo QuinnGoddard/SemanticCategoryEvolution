@@ -19,6 +19,18 @@ div {
   background: black; 
 }
 
+h2 {
+  font-family: Geneva;
+  font-size: 12px;
+  color: grey;
+}
+
+text {
+  font-family: Geneva;
+  font-size: 12px;
+  color: white;
+}
+
 .button {
   background-color: black;
   color: white;
