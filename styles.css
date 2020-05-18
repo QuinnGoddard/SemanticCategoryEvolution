@@ -1,4 +1,14 @@
-#grad1 {
+body {
   background-color: pink;
-  background-image: linear-gradient(pink, yellow);
+  background-image: linear-gradient(to bottom right, pink, yellow);
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 10px;
 }
