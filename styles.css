@@ -1,16 +1,17 @@
 body {
-  background-color: #FBAB7E;
-  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+  background-color: ##000000;
+  background-image: linear-gradient(62deg, #333333 0%, #1A4661 100%);
 }
 
 
 h1 {
-  color: black;
+  color: #57DBDE;
   font-family: Monaco;
   text-align: center;
 }
 
 p {
+  color: #e3feff;
   font-family: Geneva;
   font-size: 12px;
 }
@@ -31,6 +32,15 @@ text {
   font-family: Geneva;
   font-size: 12px;
   color: white;
+}
+
+a {
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  font-size: 12px;
+  font-family: Geneva;
+  text-align: center;
 }
 
 .button {
