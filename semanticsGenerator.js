@@ -36,5 +36,6 @@ function handleWordClick(event, file) {
 
 function randImage() {
   let random = dict.Keys.ElementAt((int).Random.Range(0, dict.Keys.Count - 1))
+  console.log("random is", random, "and it returns", imageList[random])
   return imageList[random]
 }
