@@ -24,8 +24,9 @@ const dict = {
 }
 
 // clicking on word adds properties of image to word
-function handleWordClick(event, image) {
-  // add word to list of words that have appeared
+function handleWordClick(event, file) {
+  // get letter associated with image
+  let image = file.substring(0,1)
   let word = event.target.value
   for (let i=0; i<8; i++) {
       wordList[word][i]+=images[image][i] 
