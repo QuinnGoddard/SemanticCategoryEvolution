@@ -3,7 +3,7 @@ const wordList = {
   "frooth": [0, 0, 0, 0, 0, 0, 0, 0],
   "yaum": [0, 0, 0, 0, 0, 0, 0, 0],
   "flig": [0, 0, 0, 0, 0, 0, 0, 0],
-  "rux": [0, 0, 0, 0, 0, 0, 0, 0],
+  "rux": [0, 0, 0, 0, 0, 0, 0, 0]
 }
 
 /* each image associated with list of properties (1 for present, 0 for absent)
@@ -13,7 +13,7 @@ const images = {
   A: [0, 1, 0, 0, 1, 0, 1, 0],
   B: [1, 0, 0, 1, 0, 1, 0, 1],
   C: [0, 0, 1, 0, 1, 0, 1, 1],
-  D: [1, 0, 0, 0, 0, 1, 1, 0],
+  D: [1, 0, 0, 0, 0, 1, 1, 0]
 }
 
 const dict = {
