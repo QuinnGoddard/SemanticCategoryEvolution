@@ -17,10 +17,10 @@ const images = {
 }
 
 const dict = {
-  "A": file,
-  "B": file,
-  "C": file,
-  "D": file
+  "A": "A.png",
+  "B": "B.png",
+  "C": "C.png",
+  "D": "D.png"
 }
 
 // clicking on word adds properties of image to word
