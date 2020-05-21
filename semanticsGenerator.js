@@ -39,7 +39,7 @@ function randImage() {
 
 // display results
 function handleEnd(event){
-  const printly
+  let printly = ""
   const properties = ["blue", "black", "red", "spots", "square", "circle", "round", "jagged"]
   for (var key in wordList) {
     printly += (key + "\n")
