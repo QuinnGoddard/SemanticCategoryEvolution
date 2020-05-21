@@ -27,14 +27,17 @@
   </div>
   
   <div>    
-    <img id="image" src="A.png">
+    <!-- set to "A.png" as default if randImage() not working -->
+    <img id="image" src="A.png" width = 350px height = 350px>
   </div>
+  
   <button onclick="handleWordClick(event)" class="button" value="tiv">tiv</button>
   <button onclick="handleWordClick(event)" class="button" value="frooth">fer</button>
   <button onclick="handleWordClick(event)" class="button" value="yaum">yaum</button>
   <button onclick="handleWordClick(event)" class="button" value="flig">flig</button>
   <button onclick="handleWordClick(event)" class="button" value="rux">rux</button>
   
+  <!-- set to random image -->
   <script>document.getElementById("image").src = randImage()</script>
 
 </body>
