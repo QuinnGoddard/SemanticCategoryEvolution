@@ -36,3 +36,18 @@ function randImage() {
   let random = Math.floor(Math.random() * 4)
   return imageList[random]
 }
+
+// display results
+function handleEnd(event){
+  const printly
+  const properties = ["blue", "black", "red", "spots", "square", "circle", "round", "jagged"]
+  for (var key in wordList) {
+    printly += (key + "\n")
+    for (let i=0; i<properties.length; i++) {
+      if (wordList[key][i] != 0) {
+        printly += (properties[i] + wordList[key][i])
+      }
+    }
+  }
+  document.getElementById("results") = printly
+}
