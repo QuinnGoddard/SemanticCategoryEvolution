@@ -29,11 +29,11 @@
   <div>    
     <img id="image" src="A.png">
   </div>
-  <button onclick="handleWordClick(event, file)" class="button" value="tiv">tiv</button>
-  <button onclick="handleWordClick(event, file)" class="button" value="frooth">fer</button>
-  <button onclick="handleWordClick(event, file)" class="button" value="yaum">yaum</button>
-  <button onclick="handleWordClick(event, file)" class="button" value="flig">flig</button>
-  <button onclick="handleWordClick(event, file)" class="button" value="rux">rux</button>
+  <button onclick="handleWordClick(event, document.getElementById("image").src)" class="button" value="tiv">tiv</button>
+  <button onclick="handleWordClick(event, document.getElementById("image").src)" class="button" value="frooth">fer</button>
+  <button onclick="handleWordClick(event, document.getElementById("image").src)" class="button" value="yaum">yaum</button>
+  <button onclick="handleWordClick(event, document.getElementById("image").src)" class="button" value="flig">flig</button>
+  <button onclick="handleWordClick(event, document.getElementById("image").src)" class="button" value="rux">rux</button>
   
   <script>document.getElementById("image").src = randImage()</script>
 
