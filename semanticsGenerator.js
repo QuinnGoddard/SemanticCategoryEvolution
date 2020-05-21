@@ -42,12 +42,12 @@ function handleEnd(event){
   let printly = ""
   const properties = ["blue", "black", "red", "spots", "square", "circle", "round", "jagged"]
   for (var key in wordList) {
-    printly += (key + "\n")
+    printly += (key + "\n\r")
     for (let i=0; i<properties.length; i++) {
       if (wordList[key][i] != 0) {
         printly += (properties[i] + wordList[key][i])
       }
-      printly += "/\n/"
+      printly += "\n\r"
     }
   }
   document.getElementById("results").innerHTML = printly
