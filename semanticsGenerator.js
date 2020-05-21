@@ -47,6 +47,7 @@ function handleEnd(event){
       if (wordList[key][i] != 0) {
         printly += (properties[i] + wordList[key][i])
       }
+      printly += "/\n/"
     }
   }
   document.getElementById("results").innerHTML = printly
