@@ -16,12 +16,6 @@ const images = {
   D: [1, 0, 0, 0, 0, 1, 1, 0]
 }
 
-const dict = {
-  "A": "A.png",
-  "B": "B.png",
-  "C": "C.png",
-  "D": "D.png"
-}
 
 // clicking on word adds properties of image to word
 function handleWordClick(event, file) {
@@ -35,7 +29,7 @@ function handleWordClick(event, file) {
 }
 
 function randImage() {
-  let random = dict.Keys.ElementAt((int).Random.Range(0, dict.Keys.Count - 1))
-  console.log("random is", random, "and it returns", imageList[random])
+  const imageList = ["A.png", "B.png", "C.png", "D.png"]
+  let random = Math.floor(Math.random() * 4)
   return imageList[random]
 }
