@@ -18,10 +18,13 @@ const images = {
 
 
 // clicking on word adds properties of image to word
-function handleWordClick(event, file) {
+function handleWordClick(event) {
   // get letter associated with image
+  let file = document.getElementById("image").src
   let image = file.substring(0,1)
+  console.log("image name", image)
   let word = event.target.value
+  console.log("word selected", word)
   for (let i=0; i<8; i++) {
       wordList[word][i]+=images[image][i] 
   } 
