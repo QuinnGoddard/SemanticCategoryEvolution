@@ -20,8 +20,7 @@ const images = {
 // clicking on word adds properties of image to word
 function handleWordClick(event) {
   // get letter associated with image
-  let file = document.getElementById("image").src
-  let image = file.substring(0,1)
+  let image = document.getElementById("image").src.substring(57,58)
   console.log("image name", image)
   let word = event.target.value
   console.log("word selected", word)
