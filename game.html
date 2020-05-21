@@ -26,16 +26,16 @@
     <text>You will be presented with a series of images. For each image, click the word you think best categorizes it based on the other images that you've seen.</text>
   </div>
   
-  <div>
-    var file = A.png
-    console.log(randImage())
-    <img src=file; alt="no image displayed">
-    <p>file</p>
+  <div>    
+    <img id="image" src="A.png">
   </div>
   <button onclick="handleWordClick(event, file)" class="button" value="tiv">tiv</button>
   <button onclick="handleWordClick(event, file)" class="button" value="frooth">fer</button>
   <button onclick="handleWordClick(event, file)" class="button" value="yaum">yaum</button>
   <button onclick="handleWordClick(event, file)" class="button" value="flig">flig</button>
   <button onclick="handleWordClick(event, file)" class="button" value="rux">rux</button>
+  
+  <script>document.getElementById("image").src = randImage()</script>
+
 </body>
 </html>
