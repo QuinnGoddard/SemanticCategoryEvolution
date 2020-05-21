@@ -27,7 +27,7 @@ function handleWordClick(event) {
   for (let i=0; i<8; i++) {
       wordList[word][i]+=images[image][i] 
   } 
-  console.log(worldList[word])
+  console.log(wordList[word])
 }
 
 function randImage() {
