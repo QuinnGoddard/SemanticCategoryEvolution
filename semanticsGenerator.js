@@ -49,5 +49,5 @@ function handleEnd(event){
       }
     }
   }
-  document.getElementById("results") = printly
+  document.getElementById("results").innerHTML = printly
 }
